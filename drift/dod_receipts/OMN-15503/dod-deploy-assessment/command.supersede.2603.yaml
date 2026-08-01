@@ -26,6 +26,6 @@ replacement:
   actual_output: 'PASS: supersede dod-deploy-assessment rebind for OMN-15503 (2nd consumer OmniNode-ai/omnibase_infra#2603).'
   exit_code: 0
   pr_number: 2603
-  contract_sha256: sha256:76f9cc212c653bd5cb93985c237a85842fe5e095942c21422ed60cb4f6abe898
+  contract_sha256: sha256:bd812563ba45e23d92d3200af02a8a805a822378fd88f5d38bd5dac7178e3fda
   contract_entry_sha256: sha256:95ca8d0a4f61cf21235cdc740014c6e9651853a77dbf75b6d79e1d384bd3c00b
   branch: auto/omninode-ai-omnibase_infra-pr-2603-occ-autobind

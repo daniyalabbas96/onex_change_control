@@ -5,7 +5,7 @@ evidence_item_id: "dod-OmniNode-ai-omnibase_infra-pr-2603"
 check_type: "command"
 check_value: |-
   gh api repos/OmniNode-ai/omnibase_infra/contents/scripts/ci/check_application_database_sql.py?ref=f0c283af66517f6567561dafa3e56a97617aa846 --jq '.content' | base64 -d | grep -c 'def _is_legacy_default_schema_sql_path'
-contract_sha256: "sha256:76f9cc212c653bd5cb93985c237a85842fe5e095942c21422ed60cb4f6abe898"
+contract_sha256: "sha256:bd812563ba45e23d92d3200af02a8a805a822378fd88f5d38bd5dac7178e3fda"
 status: PASS
 run_timestamp: "2026-08-01T08:17:05.342449+00:00"
 commit_sha: "f0c283af66517f6567561dafa3e56a97617aa846"
